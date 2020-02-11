@@ -11,15 +11,43 @@
 // All cells will need to have a 'click' event listener, and then an immeidate function calling the "checkForMine" function that will run the cellChecker function that will check the cells value.
 
 //I have to try and figure out how to randomly generate the placement and amount of bombs using a math.random property, or something, then I need to create a function to remove the box for every empty cell. 
+// let rows = 10;
+// let cols = 10;
+// let board = document.getElementById('board');
+// const map = [];
+// const mine;
+// const player = true; //maybe
 
-const map = [];
-const mine;
-const player = true; //maybe
+// function setup(){
+//   function createCanvas(rows, cols);{
+//   for (let i = 0; i < rows; i++){
+//     let row = board.insertRow(i);
+//     for (let j = 0; j < cols; j++){
+//       let col = row.insertCell(j);
+//     }
+//   }
+// };
 
-function checkForMine () {
+// function createGame(rows, cols) 
+// function draw(){
+// background(51);
 
-}
 
-function cellChecker () {
+//       var x = i * 30;
+//       var y = j * 30;
+//       fill c
+//       stroke (0),
+//       fill(255)
+//       square(x, y, 30, 30);
+//     }
+//   }
+// }
+
+
+// function checkForMine () {
+
+// }
+
+// function cellChecker () {
     // If / else statement (if empty, do this, else, do that ( then a nested if else (if mine, do this, if number, do that.)))
 }
